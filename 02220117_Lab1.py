@@ -40,10 +40,10 @@ class CustomList:
 
 
 # Example usage
-my_list = CustomList()  # Should print initial capacity and size
+my_list = CustomList()  
 my_list.add(5)
 my_list.add(10)
-my_list.display()  # Output: [5, 10]
-print(f"Current size: {my_list.size()}")  # Output: 2
+my_list.display()  
+print(f"Current size: {my_list.size()}")  
 
     
