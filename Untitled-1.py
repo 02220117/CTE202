@@ -1,19 +1,3 @@
-#task1
-class CustomList:
-    def __init__(self):
-        self.capacity = 10
-        self.elements = [None] * self.capacity
-        self.size = 0
-        
-        print("Created new CustomList with capacity:", self.capacity)
-        print("Current size:", self.size)
-
-
-
-my_list = CustomList()
-
-
-#task2
 class CustomList:
 
     def __init__(self, capacity=10):
@@ -37,7 +21,7 @@ class CustomList:
         print(f"Current size: {self.current_size}")
 
 
-
+# ---- Run program ----
 my_list = CustomList()
 
 my_list.append(5)
@@ -45,3 +29,4 @@ my_list.get(0)
 my_list.set(0, 10)
 my_list.get(0)
 my_list.size()
+
