@@ -84,7 +84,6 @@ class LinkedStack:
         else:
             print("Stack is empty")
         
-
 # Example usage
 stack = LinkedStack()
 
